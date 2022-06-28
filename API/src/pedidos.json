@@ -1,0 +1,30 @@
+[
+    {
+        "comensal":1,
+        "entrada":1,
+        "principal":2,
+        "bebida":1,
+        "postre":2
+    },
+    {
+        "comensal":2,
+        "entrada":1,
+        "principal":1,
+        "bebida":1,
+        "postre":1
+    },
+    {
+        "comensal":3,
+        "entrada":2,
+        "principal":2,
+        "bebida":2,
+        "postre":2
+    },
+    {
+        "comensal":4,
+        "entrada":2,
+        "principal":1,
+        "bebida":2,
+        "postre":1
+    }
+]

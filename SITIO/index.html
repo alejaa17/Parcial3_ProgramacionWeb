@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante | Pedidos</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+    <!--Ícono-->
+    <link rel="shortcut icon" href="/SITIO/icono.ico" type="image/x-icon">
+</head>
+
+<body>
+    <!--Sección para el registro de pedidos-->
+    <section>
+        <h1 class="title">Ingresa tus Pedidos</h1>
+        <h3 class="subtitle">Selecciona los platos de tu preferencia</h3>
+        <div class="columna">
+            <form>
+                <label>Entrada</label>
+                <select id="entrada">
+                    <div class="select">
+                        <option selected disabled>Selecciona una opción</option>
+                        <option value="1">Hummus de Remolacha</option>
+                        <option value="2">Mozarella en Carroza</option>
+                    </div>
+                </select>
+                <label>Plato Principal</label>
+                <select id="principal">
+                    <div class="select">
+                        <option selected disabled>Selecciona una opción</option>
+                        <option value="1">Pasta a la Oriental</option>
+                        <option value="2">Tallarines al Pesto</option>
+                    </div>
+                </select>
+                <label>Bebida</label>
+                <select id="bebida">
+                    <div class="select">
+                        <option selected disabled>Selecciona una opción</option>
+                        <option value="1">Limonada de pepino</option>
+                        <option value="2">Limonada de mango</option>
+                    </div>
+                </select>
+                <label>Postres</label>
+                <select id="postre">
+                    <div class="select">
+                        <option selected disabled>Selecciona una opción</option>
+                        <option value="1">Pan de Chocolate</option>
+                        <option value="2">Cheesecake de Fresa</option>
+                    </div>
+                </select>
+                <button id="pedir">Hacer Pedido</button>
+            </form>
+        </div>
+    </section>
+    <!--Aside para visualizar los registros-->
+    <aside>
+        <h1 class="title">Pedidos</h1>
+        <h3 class="subtitle">Registros existentes</h3>
+        <table id="tabla">
+            <thead>
+                <tr>
+                    <th scope="col">Entrada</th>
+                    <th scope="col">Plato Principal</th>
+                    <th scope="col">Bebida</th>
+                    <th scope="col">Postre</th>
+                </tr>
+            </thead>
+        </table>
+    </aside>
+<script src="/SITIO/main.js"></script>
+</body>
+</html>
